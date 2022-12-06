@@ -17,6 +17,7 @@ public class CustomerService {
 	public Customer createCustomer(Customer cust) {
 		
 		return customerRepository.save(cust) ;
+System.out.println("hiii kiran");
 		
 	}
 	public Optional<Customer> findCustomerById(Long id) {
