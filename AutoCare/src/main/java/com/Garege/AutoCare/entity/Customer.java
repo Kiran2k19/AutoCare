@@ -10,6 +10,8 @@ public class Customer {
 	Long id;
 	
 	String name;
+
+	Long pin;
 	
 	String address;
 	
