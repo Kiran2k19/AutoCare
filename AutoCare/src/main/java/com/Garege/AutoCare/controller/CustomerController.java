@@ -30,7 +30,8 @@ public class CustomerController {
 	public Optional<Customer>  findCustomerById(@PathVariable Long id) {
 		return customerService.findCustomerById(id);
 	}
-
+	
+	@PutMapping
 	
 	@PutMapping("/customer")
 	public Customer updateCustomer(@RequestBody Customer customer , @RequestParam Long id) {
